@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://gsf6plh60rhp"]
+
+[ext_resource type="Script" uid="uid://dox2i0mk1obcw" path="res://core/main_game.gd" id="1_d2op2"]
+[ext_resource type="PackedScene" uid="uid://oca117p43g6v" path="res://scenes/action_menu.tscn" id="1_s3esy"]
+[ext_resource type="PackedScene" uid="uid://0v0h0brmipd3" path="res://scenes/map_screen.tscn" id="2_72e8q"]
+[ext_resource type="PackedScene" uid="uid://cxmnggrprl1g1" path="res://scenes/craft_scene.tscn" id="4_0rdsr"]
+
+[node name="MainGame" type="Control" unique_id=825338427]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_d2op2")
+
+[node name="UIContainer" type="CanvasLayer" parent="." unique_id=790577895]
+
+[node name="ActionMenu" parent="UIContainer" unique_id=1088198496 instance=ExtResource("1_s3esy")]
+
+[node name="MapScreen" parent="UIContainer" unique_id=433197725 instance=ExtResource("2_72e8q")]
+visible = false
+
+[node name="CraftScene" parent="UIContainer" unique_id=563460211 instance=ExtResource("4_0rdsr")]
+visible = false

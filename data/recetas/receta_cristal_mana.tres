@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="Receta" format=3 uid="uid://61xqe1eujkbe"]
+
+[ext_resource type="Script" uid="uid://byb6otsfjie2q" path="res://data/data_scripts/item.gd" id="1_3bucb"]
+[ext_resource type="Resource" uid="uid://bssdlc6qcrb7t" path="res://data/items/gema.tres" id="2_eawfk"]
+[ext_resource type="Script" uid="uid://ic2fdmbakmbu" path="res://data/data_scripts/receta.gd" id="2_opmpb"]
+[ext_resource type="Resource" uid="uid://dkm275egma6gr" path="res://data/items/polvora.tres" id="3_e4sar"]
+[ext_resource type="Resource" uid="uid://coombecc5ifev" path="res://data/items/cristal_de_mana.tres" id="4_s2x8a"]
+
+[resource]
+script = ExtResource("2_opmpb")
+nombre = "Cristal de Maná"
+resultado = ExtResource("4_s2x8a")
+materials = Dictionary[ExtResource("1_3bucb"), int]({
+ExtResource("2_eawfk"): 1,
+ExtResource("3_e4sar"): 1
+})
+metadata/_custom_type_script = "uid://ic2fdmbakmbu"

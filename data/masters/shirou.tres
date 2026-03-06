@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="Master" format=3 uid="uid://bp4otl1mmdie1"]
+
+[ext_resource type="Texture2D" uid="uid://bdqsu1gc35c52" path="res://assets/png/master/Shirou_Emiya (1).png" id="1_b1r84"]
+[ext_resource type="Script" uid="uid://ic2fdmbakmbu" path="res://data/data_scripts/receta.gd" id="2_b1r84"]
+[ext_resource type="Resource" uid="uid://bssdlc6qcrb7t" path="res://data/items/gema.tres" id="3_cabbj"]
+[ext_resource type="Script" uid="uid://cjdrypdbqxfxb" path="res://data/data_scripts/master.gd" id="3_mekjr"]
+[ext_resource type="Resource" uid="uid://dkm275egma6gr" path="res://data/items/polvora.tres" id="4_axbvh"]
+[ext_resource type="Resource" uid="uid://61xqe1eujkbe" path="res://data/recetas/receta_cristal_mana.tres" id="6_cvg7n"]
+
+[resource]
+script = ExtResource("3_mekjr")
+inventario = {
+ExtResource("3_cabbj"): 1,
+ExtResource("4_axbvh"): 1
+}
+recetas_conocidas = Array[ExtResource("2_b1r84")]([ExtResource("6_cvg7n")])
+nombre = "Shirou"
+hp = 5
+mp = 5
+ataque = 4
+defensa = 3
+ataqueMagico = 2
+defensaMagica = 1
+velocidad = 3
+punteria = 3
+descripcion = "Debido al trauma sufrido durante el gran incendio, Shirou tiene un vacío constante en su personalidad. Siente que como el único superviviente, es injusto que otros hayan muerto para que él pudiera vivir. Tiene un sentido distorsionado de los valores, donde siente que debe ayudar a las personas sin ningún tipo de compensación, ya que el acto mismo \"ayudar a la gente\" es su recompensa. "
+imagen = ExtResource("1_b1r84")
+metadata/_custom_type_script = "uid://cjdrypdbqxfxb"

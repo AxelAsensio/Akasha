@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://cxmnggrprl1g1"]
+
+[ext_resource type="Script" uid="uid://6a5d7rlbrp1d" path="res://core/craft_scene.gd" id="1_0r2x1"]
+[ext_resource type="Texture2D" uid="uid://bv7j58j8e4dtw" path="res://assets/backgrounds/craft_background.png" id="1_co0fh"]
+
+[node name="CraftScene" type="Control" unique_id=563460211]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0r2x1")
+
+[node name="Background" type="TextureRect" parent="." unique_id=2025771472]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_co0fh")
+
+[node name="Panel" type="Panel" parent="." unique_id=1018711271]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="RecipeList" type="VBoxContainer" parent="Panel" unique_id=374668791]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Receta" type="HBoxContainer" parent="Panel/RecipeList" unique_id=217601244]
+layout_mode = 2
+
+[node name="Nombre" type="RichTextLabel" parent="Panel/RecipeList/Receta" unique_id=28384174]
+layout_mode = 2
+
+[node name="Descripcion" type="RichTextLabel" parent="Panel/RecipeList/Receta" unique_id=70146137]
+layout_mode = 2
+
+[node name="CraftButton" type="Button" parent="Panel/RecipeList/Receta" unique_id=357548994]
+layout_mode = 2
+
+[node name="Cerrar" type="Button" parent="Panel" unique_id=1957082066]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -8.0
+offset_right = 8.0
+grow_vertical = 0
+
+[connection signal="pressed" from="Panel/RecipeList/Receta/CraftButton" to="." method="_on_craft_button_pressed"]

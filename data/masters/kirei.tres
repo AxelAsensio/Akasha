@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="Master" format=3 uid="uid://cp5qsrjy1ifey"]
+
+[ext_resource type="Texture2D" uid="uid://juu02r0lqrmf" path="res://assets/png/master/tumblr_f5aa3f4a12701b8209d78311887eec13_8d22d1dc_1280.png" id="1_oehks"]
+[ext_resource type="Script" uid="uid://byb6otsfjie2q" path="res://data/data_scripts/item.gd" id="1_r28eh"]
+[ext_resource type="Script" uid="uid://ic2fdmbakmbu" path="res://data/data_scripts/receta.gd" id="2_oehks"]
+[ext_resource type="Script" uid="uid://cjdrypdbqxfxb" path="res://data/data_scripts/master.gd" id="3_wu0hg"]
+
+[resource]
+script = ExtResource("3_wu0hg")
+nombre = "Kirei"
+hp = 6
+mp = 7
+ataque = 6
+defensa = 5
+ataqueMagico = 6
+defensaMagica = 6
+velocidad = 2
+punteria = 2
+descripcion = "Desconocido por todos los que lo rodean, Kirei nació defectuoso, poseyendo una mente retorcida desde su nacimiento. Él es una persona malvada, pero no un villano. Desviado, pero no inhumano. Este no está sano, pero tampoco loco. A pesar de sus logros personales, Kirei nunca sintió satisfacción. A pesar de sus mejores esfuerzos, este no pudo disfrutar de las cosas en las que los demás encontraban felicidad, y en cambio sintiéndose atraído por emociones negativas como el dolor ajeno. Kirei puede actuar como una persona normal, incluso trayendo orgullo a su padre, pero intrínsecamente él no puede entender a los demás o a las cosas que ellos perciben como «hermosas»."
+imagen = ExtResource("1_oehks")
+metadata/_custom_type_script = "uid://cjdrypdbqxfxb"

@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Servant" format=3 uid="uid://bliqivufmfe3i"]
+
+[ext_resource type="Script" uid="uid://x1106405fah6" path="res://data/data_scripts/servant.gd" id="1_4oh23"]
+[ext_resource type="Texture2D" uid="uid://b042boetqtuej" path="res://assets/png/servant/Saber_-_Fate_stay_night_-_Render.png" id="1_jgfan"]
+
+[resource]
+script = ExtResource("1_4oh23")
+nombre = "Artoria"
+hp = 10
+mp = 10
+ataque = 8
+defensa = 5
+ataqueMagico = 2
+defensaMagica = 5
+velocidad = 3
+punteria = 1
+descripcion = "Artoria es una joven de voluntad fuerte que siempre habla con resolución. Es valiente, decidida y se muestra dispuesta a obtener el Santo Grial. Ella insiste constantemente en que primero es un caballero y que su género es de poca importancia para ella misma."
+imagen = ExtResource("1_jgfan")
+metadata/_custom_type_script = "uid://x1106405fah6"

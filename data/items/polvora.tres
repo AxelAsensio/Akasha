@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://dkm275egma6gr"]
+
+[ext_resource type="Script" uid="uid://byb6otsfjie2q" path="res://data/data_scripts/item.gd" id="1_ehwf2"]
+
+[resource]
+script = ExtResource("1_ehwf2")
+id = 1
+nombre = "Póvora"
+descripcion = "Material extremadamente explosivo"
+metadata/_custom_type_script = "uid://byb6otsfjie2q"

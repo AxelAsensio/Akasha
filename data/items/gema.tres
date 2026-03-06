@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://bssdlc6qcrb7t"]
+
+[ext_resource type="Script" uid="uid://byb6otsfjie2q" path="res://data/data_scripts/item.gd" id="1_0q58j"]
+
+[resource]
+script = ExtResource("1_0q58j")
+nombre = "Gema"
+descripcion = "Piedra preciosa capaz de conducir el maná."
+metadata/_custom_type_script = "uid://byb6otsfjie2q"

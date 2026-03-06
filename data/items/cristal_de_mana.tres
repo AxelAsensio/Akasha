@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Item" format=3 uid="uid://coombecc5ifev"]
+
+[ext_resource type="Script" uid="uid://byb6otsfjie2q" path="res://data/data_scripts/item.gd" id="1_6f7ku"]
+
+[resource]
+script = ExtResource("1_6f7ku")
+id = 2
+nombre = "Cristal de Maná"
+descripcion = "Cristal imbuido con una gran cantidad de maná. Puede ser usado como combustible en rituales sencillos. Si el cristal se rompe puede generar uuna gran explosión mágica."
+metadata/_custom_type_script = "uid://byb6otsfjie2q"

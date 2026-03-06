@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="Servant" format=3 uid="uid://blyoq3e7uff58"]
+
+[ext_resource type="Script" uid="uid://x1106405fah6" path="res://data/data_scripts/servant.gd" id="1_j20qy"]
+[ext_resource type="Texture2D" uid="uid://dwdvgwb0rxiwk" path="res://assets/png/servant/GilgameshUC.png" id="1_mnkms"]
+
+[resource]
+script = ExtResource("1_j20qy")
+nombre = "Gilgamesh"
+hp = 10
+mp = 10
+ataque = 7
+defensa = 6
+ataqueMagico = 8
+defensaMagica = 7
+velocidad = 2
+punteria = 4
+descripcion = "Gilgamesh difiere en gran medida de la mayoría de los soberanos y líderes en la historia de la humanidad. Se colocó frente a su nación y a su pueblo sin tener la curiosidad ni el deseo de conquistar, posiblemente porque tenía demasiado al principio. Se toma el tiempo para divertirse, dominando cada tesoro y placer. Con la convicción de tratar al bien y al mal por igual, Gilgamesh no necesita otras ideologías y formas de vida cuando la base absoluta es «él mismo». Sus acciones y su forma de vida lo dejaron solo, por lo que Enkidu comparó rectificar su actitud con rectificar su soledad."
+imagen = ExtResource("1_mnkms")
+metadata/_custom_type_script = "uid://x1106405fah6"
